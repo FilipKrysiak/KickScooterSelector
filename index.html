@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hoolay Konfigurator</title>
+
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+</head>
+
+<body>
+
+<nav id="userSettings">
+   <p id="languageEN">en</p><p> / </p><p id="languagePL">pl</p>
+</nav>
+
+<section id="productView">
+  <canvas id="mainCanvas"></canvas>
+</section>
+
+<nav id="productSelector">
+
+  <div class="selector">
+    <p id="gripText1" hidden>choose hand </p><p id="gripText">grips</p><p id="gripText2" hidden> colour</p>
+    <button type="button" class="arrow" id="gripPrev"><</button>
+    <img class="icoImg" id="icoGrip"></img>
+    <button type="button" class="arrow" id="gripNext">></button>
+  </div>
+
+  <div class="selector">
+    <p id="frameText1" hidden>choose </p><p id="frameText">frame</p><p id="frameText2" hidden> colour</p>
+    <button type="button" class="arrow" id="framePrev"><</button>
+    <div class="icoImg" id="icoFrame"></div>
+    <button type="button" class="arrow" id="frameNext">></button>
+  </div>
+
+  <div class="selector">
+    <p id="deckText1" hidden>choose </p><p id="deckText">deck</p>
+    <button type="button" class="arrow" id="deckPrev"><</button>
+    <img class="icoImg" id="icoDeck"></img>
+    <button type="button" class="arrow" id="deckNext">></button>
+  </div>
+
+  <div class="selector">
+    <button id="photoBttn" class="icoBttn">photo</button>
+  </div>
+
+  <div class="selector">
+    <button id="saveBttn" class="icoBttn">save</button>
+  </div>
+
+  <div class="selector">
+    <button id="buyBttn" class="icoBttn">buy</button>
+  </div>
+
+</nav>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

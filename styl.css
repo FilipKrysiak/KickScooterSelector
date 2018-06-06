@@ -1,0 +1,87 @@
+body {
+	font-family: 'Lato';
+	margin: 0 auto;
+  width: 624px;
+}
+
+p {
+		margin-top: 0px;
+    margin-bottom: 8px;
+		cursor:default;
+}
+
+a {
+	text-decoration: none;
+	}
+
+#productView{
+	width: 480px;
+	height: 480px;
+	float: left;
+	display: block;
+}
+
+#productSelector {
+	height: 100%;
+	margin: 0 auto;
+	float: left;
+	display: block;
+}
+
+#userSettings{
+	height: 24px;
+	width: 624px;
+	border-bottom: solid 1px #eeeeee;
+	text-align: left;
+}
+
+button {
+	font-family: 'Lato';
+	font-size: 16px;
+	background-color: #eeeeee;
+	border: none;
+	height: 32px;
+	float: left;
+}
+
+.arrow {
+	width: 32px;
+	margin: 8px;
+}
+
+.icoBttn {
+	width: 128px;
+	margin: 8px;
+	padding: 0px;
+}
+
+.icoImg {
+	width: 46px;
+	height: 46px;
+	background-color: #eeeeee;
+	border: solid 1px #484848;
+	float: left;
+}
+
+.selector {
+	float: left;
+	clear: both;
+	min-height: 32px;
+	width: 144px;
+	margin: 10px auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+@media (max-width: 640px) {
+body{
+width: 480px;
+}
+#productView{
+	border-bottom: solid 1px #eeeeee;
+}
+#userSettings{
+	width: 480px;
+}
+
+}
