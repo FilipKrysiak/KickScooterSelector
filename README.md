@@ -1,7 +1,7 @@
 # KickScooterSelector
 JavaScript app to create Your own kick scooter
 
-Current version:
+not so Current version:
 http://hoolay.pl/myapps/scooter/konfig.html
 
 OLD version:
