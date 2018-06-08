@@ -56,6 +56,21 @@ var product = {
 };
 var viewIdx = 1;
 
+var arrows = document.querySelectorAll(".arrow");
+var arrNodes = Array.prototype.slice.call(arrows);
+
+arrNodes.forEach(function(a){
+	a.addEventListener("click", function(e){
+    let direction = e.target.classList[1];
+		let func = e.target.classList[2];
+		switchValues(func, direction);
+		});
+}, false);
+
+function switchValues(par1, par2){
+		console.log(par1, par2);
+};
+
 document.getElementById("gripNext").addEventListener("click", gripNext);
 function gripNext(){
 	if(gripIdx < grip.length){
